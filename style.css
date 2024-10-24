@@ -1,0 +1,55 @@
+body
+{
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+table, th, td 
+{ 
+    border:5px solid black; 
+    width: 100%;
+    overflow-x: auto;
+    align-self: center;
+    text-align: left;
+    padding: 10px;
+    border-collapse: collapse;
+}
+div 
+{
+    text-align: center;
+    padding: 5px;
+}
+h1
+{
+    color: whitesmoke;
+    font-size: 100px;
+}
+h2
+{
+    color: whitesmoke;
+    font-size: 50px;
+}
+h3
+{
+    color: whitesmoke;
+    font-size: 30px;
+} 
+p
+{
+    color: whitesmoke;
+    font-size: 18px;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+#icon
+{
+    width: 5%;
+    height: auto;
+}
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
