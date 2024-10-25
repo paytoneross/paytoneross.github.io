@@ -22,10 +22,39 @@ li, ul, ol
 {
     color:whitesmoke;
     font-size: 18px;
+    text-shadow: 2px 5px 5px black;
 }
 div 
 {
     padding: 10px;
+}
+.aboutme
+{
+    background-image: url(../payton-portfolio/media/Jump.jpg);
+    background-position: 60% 40%;
+    background-size: 99%;
+    background-repeat: no-repeat;
+}
+.indiv
+{
+    background-image: url(../payton-portfolio/media/indivgame.png);
+    background-position: 60% 40%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.comic
+{
+    background-image: url(../payton-portfolio/media/comicpanel.png);
+    background-position: 55% 40%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.arproj
+{
+    background-image: url(../payton-portfolio/media/CastleFinalBricks.png);
+    background-position: 50% 20%;
+    background-size: 200%;
+    background-repeat: no-repeat;
 }
 .nopad
 {
@@ -65,6 +94,7 @@ p
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     font-size: 18px;
+    text-shadow: 2px 5px 5px black;
 }
 .center
 {
@@ -72,7 +102,7 @@ p
 }
 #pagetitle
 {
-    font-size:250px;
+    font-size: 9vw;
 }
 #subtitle
 {
@@ -97,10 +127,25 @@ img
     width: 100%;
     overflow-x: auto;
 }
+.fluid
+{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+}
 .centered
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 50%;
     Left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
 }
