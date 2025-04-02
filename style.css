@@ -30,28 +30,28 @@ div
 }
 .aboutme
 {
-    background-image: url(../paytoneross.github.io/media/Jump.jpg);
+    background-image: url(../media/Jump.jpg);
     background-position: 60% 40%;
     background-size: 99%;
     background-repeat: no-repeat;
 }
 .indiv
 {
-    background-image: url(../paytoneross.github.io/media/indivgame.png);
+    background-image: url(../media/indivgame.png);
     background-position: 60% 40%;
     background-size: 200%;
     background-repeat: no-repeat;
 }
 .comic
 {
-    background-image: url(../paytoneross.github.io/media/comicpanel.png);
+    background-image: url(../media/comicpanel.png);
     background-position: 55% 40%;
     background-size: 200%;
     background-repeat: no-repeat;
 }
 .arproj
 {
-    background-image: url(../paytoneross.github.io/media/CastleFinalBricks.png);
+    background-image: url(../media/CastleFinalBricks.png);
     background-position: 50% 20%;
     background-size: 200%;
     background-repeat: no-repeat;
