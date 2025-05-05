@@ -153,3 +153,18 @@ img
 {
     color: #ededed;
 }
+.header
+{
+    background-color: #1a1a1a;
+    color: #ededed;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
