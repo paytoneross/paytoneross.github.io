@@ -225,11 +225,18 @@ img
     font-size: 24px;
 }
 
+.headerdiv {
+    max-width: 60%;
+    margin: auto;
+}
+
 .header {
     overflow: hidden;
     background-color: #1a1a1a;
     padding: 20px 10px;
     z-index: 1000;
+    position: sticky;
+    top: 0;
 }
 
 .header a {
