@@ -243,14 +243,15 @@ img
     float: left;
     color: whitesmoke;
     text-align: center;
-    padding: 12px;
+    padding: 20px 12px;
     text-decoration: none;
-    line-height: 25px;
+    line-height: 40px;
     border-radius: 4px;
 }
 
 .header a.logo {
-    font-size: 60px;
+    font-size: 50px;
+    padding: 10px;
     font-family: fantasy;
 }
 
