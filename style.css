@@ -114,11 +114,6 @@ img
     width: 100%;
     height: auto;
 }
-#icon
-{
-    width: 5%;
-    height: auto;
-}
 .table-responsive {
     width: 100%;
     overflow-x: auto;
@@ -151,7 +146,7 @@ img
 }
 
 
-.header
+.headersticky
 {
     top: 0;
     width: 100%;
@@ -228,4 +223,59 @@ img
 }
 .bio {
     font-size: 24px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #1a1a1a;
+    padding: 20px 10px;
+    z-index: 1000;
+}
+
+.header a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.header a:hover {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+.header a.active {
+    background-color: steelblue;
+    color: whitesmoke;
+}
+
+.header-right {
+    float: right;
+}
+.header-left {
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+.node:hover{
+    stroke-width: 7px !important;
+    opacity: 1 !important;
 }
