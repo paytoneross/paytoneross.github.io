@@ -221,8 +221,14 @@ img
     text-align: left;
     padding: 10px;
 }
+
+.bioTitle {
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .bio {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .headerdiv {
