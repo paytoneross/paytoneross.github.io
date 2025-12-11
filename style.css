@@ -1,6 +1,6 @@
 body
 {
-    background-color: #a0a0a0;
+    background-color: #545454;
 }
 table, th, td 
 { 
@@ -238,7 +238,7 @@ img
 
 .header {
     overflow: hidden;
-    background-color: #464646;
+    background-color: #323232;
     padding: 20px 10px;
     z-index: 1000;
     position: sticky;
